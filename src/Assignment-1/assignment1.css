@@ -25,12 +25,13 @@ img{
     height: 200px;
 }
 
+
 .my-list{
     /* align-items: ; */
-    /* left: 100%; */
+    left: 100%;
     /* margin-top: auto; */
-    position: absolute;
-    align-content: flex-start;
+    /* position: absolute; */
+    /* align-content: flex-start; */
     margin-left: auto;
 
 }
