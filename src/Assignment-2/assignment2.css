@@ -1,11 +1,3 @@
-/* Our CSS file. */
-
-
-.container, .content {
-width: 100%;
-height: 100%;
-}
-
 .header-logo{
     width: 50px;
     height: 50px;
@@ -28,12 +20,12 @@ body{
 /* CSS for NAV-BAR */
 .creating-nav{
     display: inline-block;
-    margin: 2%;
+    /* margin: 2%; */
     background-color: plum;
     text-align: center;
-    padding : 10px 20px;
+    padding : 1px;
     border-radius: 5px;
-    width: 90%;
+    width: 100%;
 } 
 
 .nav-link-1{
@@ -64,8 +56,9 @@ body{
     color: royalblue;
     height: 25%;
     width: 10%;
-    padding: 0px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 /* css for section  */
@@ -76,7 +69,8 @@ body{
 
     /* margin-left: 18%; */
     margin-left: 10%;
-    margin-top: 0%;
+    /* margin-top: 0%; */
+    margin-top: 10px;
     height: 5%;
     /* width: 50%; */
 }
@@ -94,15 +88,17 @@ body{
     width: 10%;
     padding: 0px 10px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 #page-footer{
     background-color: pink;
-    padding: 10px;
+    padding: 1px;
     border-radius: 5px;
     margin-top: 5px;
     color: purple;
     text-align: center;
+    width: 100%;
+    margin-left: 0px;
 
 }
-
