@@ -5,3 +5,231 @@
 width: 100%;
 height: 100%;
 }
+
+
+/* ------------------ CSS PART ----------------- */
+
+body {
+    background-color: pink;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ----------CSS FOR HEADER PART---------- */
+header{
+    /* background-color: antiquewhite; */
+    /* color: */
+    height: 50px;
+    padding: 0 25px;
+    background: #92E0E5;
+    color: white; 
+}
+.header-logo{
+    /* width:40px; */
+    /* height:40px; */
+    /* width: 20px; */
+    float: left;
+}
+
+header div img{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    /* float: left; */
+}
+
+header h1{
+    float: left;
+    text-indent: -9999px; /*It is used to remove text which is in the h1/logo part*/
+    background: url('Images/logo.jpg');
+    height: 35px;
+    width: 35px;
+    margin-top: 8px;   
+}
+
+header nav{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    padding: 17px 10px; /*top-bottom left-right*/
+}
+
+nav li :hover{
+    /* background-color: coral; */
+    background: #3f8da7;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* ----------CSS FOR Hero Unit PART---------- */
+
+#hero-unit{
+    background: url('Images/background.jpg'); /*fixing background img*/
+    background-size: cover;  /*cover img to fully fill the space available automatically*/
+    text-align: center;/* centers all the content inside of our #hero section*/
+    padding : 50px 0; /* sets internal padding of 50px at the top and bottom of the #hero section*/
+    margin-bottom: 50px; /*gives the content below our hero unit some space*/
+}
+
+
+#hero-unit img{
+    display: block; /*hero img and content is in line by line*/
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #3f8da7;
+}
+
+#hero-unit h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* it is used to give in btween hero img and hero link tab */
+#hero-unit img{
+    margin-bottom: 25px;
+}
+
+
+#hero-unit a{
+    background: white;
+    border: 5px solid #3f8da7;
+    color: #3f8da7;
+    padding: 5px 10px ;
+    text-decoration: none; /*whenever we used to create a link part so that underline become so to avoid/ remove this underline we use this propery*/
+    /* margin: 2%; */
+    /* margin-top: 5%; */
+
+
+}
+
+#hero-unit a :hover{
+    padding: 5px 10px;
+    background: #3f8da7;
+    color: white;
+}
+
+
+/* ============================================================== */
+/* Edit 3 columns which are present in section */
+
+.three-col{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top; /*it pulls data to the top level*/
+    margin: 0 10px;
+    height: 100%;
+}
+
+.three-col img{
+    border-radius: 50%;
+    border: 3px solid #3f8da7;
+    height: 200px;
+    width: 200px;
+    margin: 25px 0;
+}
+
+/* it is used to give in btween three-col paragraph and  link tab */
+ 
+.three-col p{
+    margin-bottom: 25px;
+}
+
+
+/* a{
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    padding: 5px 10px;
+    background: #3F8DA7;
+    color: white;
+} */
+
+/* =================================== */
+
+
+
+.btn {
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+    /* margin: 2%; */
+}
+   
+.btn:hover {
+    background: #3F8DA7;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+
+/* -------CSS For Footer---------- */
+footer {
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center
+}
+
+footer ul {
+    margin: 40px 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 25px;
+    padding: 2px;
+    text-align: center;
+    font-size: 8px;
+}
+
+.link {
+    color: white;
+    background-color: #3f8da7;
+}
+   
+
+.link:hover {
+    color: #92E0E5;
+}
+  
+footer img{
+    display: block;
+    padding: 5px;
+    /* text-align: center; */
+    /* font-size: 1px; */
+    /* color: black; */
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
